@@ -1,0 +1,150 @@
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.left-panel {
+    background-color: steelblue;
+    width: 100%;
+    padding: 30px 10px;
+    color: #fff;
+}
+
+.right-panel {
+    width: 500px;
+    background-color: #f2f2f2;;
+    padding: 20px 15px;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+}
+
+.avatar img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 25px 0;
+}
+
+.fullname {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.position {
+    text-align: center;
+}
+
+.personal-info {
+
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.title i {
+    font-size: 18px;
+    margin-right: 10px;
+    color: white;
+    background-color: steelblue;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.left-panel .title i {
+    font-size: 30px;
+}
+
+.title h6 {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.info {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.info .icon-container {
+    width: 20px;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.info a {
+    color: #fff;
+}
+
+.timeline {
+    display: flex;
+}
+
+.time {
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.time .date {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.timeline .content {
+    padding-top: 3px;
+}
+
+.skill {
+    padding-left: 42px;
+}
+
+.skill-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skill-title h6 {
+    margin-bottom: 0;
+}
+
+.skill-content {
+    padding-left: 30px;
+}
+
+.school, .company {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.content .position {
+    text-align: left;
+}
+
+.project-title {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.old-projects {
+    padding-left: 58px;
+}
+
